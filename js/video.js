@@ -32,7 +32,7 @@ document.getElementById("slower").addEventListener("click", function(){
 });
 
 document.getElementById("faster").addEventListener("click", function(){
-	rate = rate + 0.5;
+	rate = rate + .05;
 	video.playbackRate = rate;
 	console.log(video.playbackRate)
 });
